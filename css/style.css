@@ -1,0 +1,390 @@
+*{
+  font-size: 10px;
+}
+
+h1,h2,h4,h5,h6{margin: 0;}
+a{color: #fff; text-decoration: none;}
+
+body{
+  min-width: 380px;
+  background-color: #333;
+  color: white;
+  font-family: 'Lato', sans-serif;
+} 
+
+.container{
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.logo-head{
+  background-color: #f6f9f9;
+}
+
+.logo{
+  margin-left: 20px;
+  display: flex;
+  height: 90px;
+  align-items: center;
+}
+
+.text-logo{
+  padding-left: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 3rem;
+  color: #2d3950;
+}
+
+
+/* ---main header--- */
+.main-header{
+  /*background: url('../img/header-background.png') center center no-repeat;*/
+  background-size: cover;
+  height: 800px;
+}
+
+.content-header h1{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 12rem;
+}
+
+.header-line{
+  margin: 0 auto;
+  max-width: 600px;
+  height: 2px;
+  background-color: #15a4fa;
+}
+
+.content-header h4{
+  text-align: center;
+  font-weight: 400;
+  font-size: 2rem;
+  padding-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.btn{
+  margin: 0 auto;
+  width: 174px;
+  border: 1px #15a4fa solid;
+  border-radius: 6px;
+  transition: 0.5s;
+  padding: 0;
+}
+
+.btn a {
+  text-align: center;
+  display: block;
+  padding: 1.4rem 0;
+  font-size: 2rem;
+}
+
+.btn:hover {
+  background-color: #15a4fa;
+}
+
+.arrow-parent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 100%;
+}
+
+.arrow{
+  font-size: 3.2rem;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -25px;
+  height: 50px;
+  width: 50px;
+  background-color: rgba(0,0,0,.0);
+  margin-bottom: 20px;
+  border-radius: 50%;
+  transition: 0.4s;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow:hover{
+  border: 1px white solid;
+}
+/* ---main header--- */
+
+/*-------first-section------*/
+#lb-section{
+  background-color: #f6f9f9;  
+}
+.block-content-1{
+  max-width: 1100px;
+}
+
+
+/*block-content*/
+.block-content h2{
+  padding-top: 80px;
+  text-align: center;
+  color: #2d3950;
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+.block-content p{
+  line-height: 30px;
+  margin: 0;
+  text-align: center;
+  color: #2d3950;
+  font-size: 2rem;
+  padding: 30px 0 100px 0;
+}
+/*block-content*/
+
+
+/*-------first-section------*/
+
+/*-------second-section------*/
+#white-section{
+  background-color: #fff;  
+}
+
+#white-section .row{
+  min-height: 340px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#white-section .col{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  padding-top: 60px;
+  max-width: 320px;
+}
+
+
+#white-section .col h3{
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 2.2rem;
+  color: #2d3950;
+}
+
+#white-section .col p{
+  line-height: 24px;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #999;
+}
+/*-------second-section------*/
+
+/*-------the third-section------*/
+
+.row-img{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.row-img .col-img{
+  max-width: 360px;
+  max-height: 260px;
+}
+
+.with-img p{
+  padding-bottom: 84px;
+}
+
+.img-col {
+  margin: 0 3px;
+  padding-bottom: 30px;
+}
+/*-------the third-section------*/
+
+/*-------Stay with us------*/
+#section-with-road {
+  background: url('../img/us-bg.png') #424c61 center center no-repeat;
+  background-size: cover;
+}
+
+.bg-wipe{
+  background-color: rgba(66, 76, 97, 0.82);
+}
+
+#section-with-road h2{
+  color: #fff;
+}
+#section-with-road p{
+  padding-bottom: 50px;
+  color: #999;
+}
+
+.send-content form{
+  padding-bottom: 110px;
+  margin: 0 auto;
+  max-width: 550px;
+}
+
+.send-content form *{box-sizing: border-box}
+
+.send-content form input,
+.send-content form textarea {
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 1.6rem;
+  width: 100%;
+  display: block;
+  padding: 20px;
+  border: 1px #999 solid;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.0);
+}
+.send-content form textarea{resize: none;}
+
+.send-content form input:focus,
+.send-content form textarea:focus {
+  border: 1px #fff solid;
+}
+
+.send-content form textarea{
+  height: 150px;
+}
+
+.subcr-button label .label{
+  display: block;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.subcr-button .btn{width: 140px; margin: 0; margin-left: auto;}
+.subcr-button .btn a{padding: 0.8rem 0;}
+
+/*------------------Custom checkbox--------------------*/
+.send-content label{
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.send-content .label{
+  padding-left: 10px;
+}
+
+.subcr-button .checkbox {
+  display: none;
+}
+ 
+.checkbox-custom {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #ccc;
+  border-radius: 3px;
+}
+ 
+
+.checkbox-custom,
+.label {
+  display: inline-block;
+  vertical-align: middle;
+}
+ 
+
+.checkbox:checked + .checkbox-custom::before {
+  content: "";
+  display: block;
+  position: absolute;
+
+  top: 2px;
+  right: 2px;
+  bottom: 2px;
+  left: 2px;
+
+  background: #ccc;
+  border-radius: 2px;
+}
+/*--------------------------------------------------------*/
+.subcr-button{
+ max-width: 550px;
+ display: flex; 
+ align-items: center;
+}
+
+.clear-bg{
+  background-color: rgba(0, 0, 0, 0.0);
+}
+
+/*-------Stay with us------*/
+/*-------Footer------*/
+footer{
+  background-color: #f6f9f9; 
+}
+
+.footer-content{
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer p {
+  color: #999;
+  font-size: 1.5rem;
+}
+
+.footer-social a{
+  width: 40px;
+  height: 40px;
+  background-color: #15a4fa;
+  margin-left: 5px;
+  border-radius: 3px;
+  display: inline-block;
+  text-align: center;
+  line-height: 45px;
+}
+
+.footer-social a:hover{
+  transition: 0.3s;
+  transform: scale(1.1);
+}
+
+.footer-social a i{
+  font-size: 18px;
+}
+  
+/*-------Footer------*/
+
+@media screen and (max-width: 768px) {
+
+  *{font-size: 8px;}
+
+  .btn a{padding: 2rem 0;}
+  .subcr-button .btn a{padding: 1.2rem 0;}
+
+  #white-section .row{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .block-content p{ padding: 30px 0 80px 0; }
+  #white-section .col p{font-size: 2rem;}
+
+  .with-img p{
+    padding-bottom: 30px;
+  }
+
+  #white-section .row:last-child{ padding-bottom: 30px; }
+
+  .main-header {height: 600px;}
+}  
+
+/*@media screen and (max-width: 1200px) and (min-width: 769px){
+
+  *{font-size: 12px;}
+}*/
